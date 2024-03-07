@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  height: 500px; 
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.chat-window {
+  flex: 1; 
+  background-color: #fff;
+  padding: 20px;
+}
+
+#chat-display {
+  height: 400px;
+  overflow-y: scroll; /* Add scrollbar if messages overflow */
+  margin-bottom: 10px;
+}
+
+.input-area {
+  display: flex;
+  align-items: center; 
+}
+
+#message-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+#send-button {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Example color */
+  color: white;
+  border: none;
+}
